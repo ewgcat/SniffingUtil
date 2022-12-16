@@ -1,0 +1,17 @@
+buildscript {
+    repositories {
+        maven { url "https://maven.aliyun.com/repository/google"}
+        maven { url 'https://maven.aliyun.com/nexus/content/groups/public' }
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:4.1.3'
+    }
+}
+
+allprojects {
+    repositories {
+        maven { url "https://maven.aliyun.com/repository/google"}
+        maven { url 'https://maven.aliyun.com/nexus/content/groups/public' }
+    }
+}
